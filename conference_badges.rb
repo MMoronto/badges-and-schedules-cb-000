@@ -17,7 +17,11 @@ def assign_rooms(list_spkrs)
   rooms = []
   array.each_with_index do |name, counter|
     
-rooms << "Hello, #{name}! You have been assigned to room #{counter+ 1}!"
+rooms << "Hello, #{name}! You have been assigned to room #{counter + 1}!"
 end
 rooms
 end
+
+def printer(list_spkrs)
+  batch_badge_creator(list_spkrs).each do|item|
+end   
