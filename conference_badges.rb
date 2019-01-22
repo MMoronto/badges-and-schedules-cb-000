@@ -15,7 +15,7 @@ end
 
 def assign_rooms(list_spkrs)
   rooms = []
-  array.each_with_index do |name, counter|
+  list_spkrs.each_with_index do |name, counter|
     
 rooms << "Hello, #{name}! You have been assigned to room #{counter + 1}!"
 end
