@@ -24,4 +24,10 @@ end
 
 def printer(list_spkrs)
   batch_badge_creator(list_spkrs).each do|item|
+    puts item
 end   
+
+assign_rooms(list_spkrs).each do |item|
+  puts item
+end
+end
