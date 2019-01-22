@@ -17,7 +17,7 @@ def assign_rooms(list_spkrs)
   rooms = []
   list_spkrs.each_with_index do |name, counter|
     
-rooms << "Hello, #{name}! You have been assigned to room #{counter + 1}!"
+rooms << "Hello, #{name}! You'll be assigned to room #{counter + 1}!"
 end
 rooms
 end
